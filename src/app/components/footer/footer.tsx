@@ -8,7 +8,7 @@ export default function Footer(){
     return(
         <div className="max-w-[1920px] ">
 
-            <div className="h-[418px] bg-black relative bottom-[1744px]">
+            <div className="h-[418px] bg-[#E1E3E5] relative bottom-[1744px]">
                 <div className="relative top-[99px] left-[77px]">
                 <div className="flex gap-1 relative top-[-7px]">
                 <Image src="/image/Logo Icon.png" alt="logo" width={40} height={40}/>
