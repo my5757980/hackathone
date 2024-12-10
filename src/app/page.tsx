@@ -1,101 +1,253 @@
+import HeroSection from "./components/hero-section/hero-section";
 import Image from "next/image";
+import Footer from "./components/footer/footer";
+export default function Home(){
+  return(
+    <div  className="max-w-[1920px] overflow-hidden overflow-y-hidden">
+      {/* <h1>welcome to home page</h1> */}
+      <HeroSection/>
+     <p className="text-[32px] leading-[35.2px] relative bottom-[177px] left-[295px]">Featured Products</p>
+     <div className=" relative bottom-[133px] left-[295px] flex gap-[10px]">
+      <div>
+     <Image src="/image/Image.png" alt="logo" width={212} height={312}/>
+     
+     <p className="font-normal text-[16px] leading-[20.8px] text-[#007580]">Library Stool Chair</p>
+     <p className="text-[18px] leading-[19.8px] text-[#272343] ">$20</p>
+     <Image className="relative bottom-[35px] left-[168px]" src="/image/Add Cart.png" alt="logo" width={44} height={44}/>
+     <div className=" relative bottom-[288px] left-[22px] w-[49px] h-[26px] rounded-[4px] pt-[6px] pr-[10px] pb-[6px] pl-[10px] bg-[#01AD5A]">
+      <p className="font-medium text-[13px] leading-[14.3px] text-white">New</p>
 
-export default function Home() {
-  return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="https://nextjs.org/icons/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+     </div>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="https://nextjs.org/icons/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+
+     </div>
+     <div>
+     <Image src="/image/Image (1).png" alt="logo" width={212} height={312}/>
+     <p className="font-normal text-[16px] text-[#272343] leading-[]20.8px">Library Stool Chair</p>
+     <p className=" text-[18px] leading-[19.8px] text-[#272343] ">$20</p>
+     <p className="relative bottom-[18px] left-[42px] font-normal text-[14px] leading-[15.4px] line-through text-[#9A9CAA]">$39</p>
+     <Image className="relative bottom-[49px] left-[168px]" src="/image/Add Cart (1).png" alt="logo" width={44} height={44}/>
+
+
+     <div className=" relative bottom-[308px] left-[15px] w-[49px] h-[26px] rounded-[4px] pt-[6px] pr-[10px] pb-[6px] pl-[10px] bg-[#F5813F]">
+      <p className="font-medium text-[13px] leading-[14.3px] text-white">Sales</p>
+
+     </div>
+
+     </div>
+     <div>
+     <Image src="/image/Image (2).png" alt="logo" width={212} height={312}/>
+     <p className="font-normal text-[16px] text-[#272343] leading-[20.8px]">Library Stool Chair</p>
+     <p className="text-[18px] leading-[19.8px] text-[#272343] ">$20</p>
+     <Image className="relative bottom-[35px] left-[168px]" src="/image/Add Cart (1).png" alt="logo" width={44} height={44}/>
+     </div>
+     <div>
+     <Image src="/image/Image (3).png" alt="logo" width={212} height={312}/>
+     <p className="font-normal text-[16px] text-[#272343] leading-[20.8px]">Library Stool Chair</p>
+     <p className="text-[18px] leading-[19.8px] text-[#272343] ">$20</p>
+     <Image className="relative bottom-[35px] left-[168px]" src="/image/Add Cart (1).png" alt="logo" width={44} height={44}/>
+     <p className="text-[32px] leading-[35.2px] text-[#272343] relative right-[666px] font-bold"> Top categories</p>
+    
+     </div>
+     
+
+
+     
+      </div>
+      <div className="flex gap-[11px] relative bottom-[111px] left-[288px]">
+        <div>
+      <Image src="/image/Image (4).png" alt="logo" width={290} height={290}/>
+      <div className="h-[85px] bg-zinc-900 opacity-90 relative bottom-[88px]">
+        <div className="relative top-[23px] left-[15px]  ">
+        <p className="text-white text-[17px] leading-[22px]">Wing Chair</p>
+        <p className="text-white opacity-70 font-normal text-[14px] leading-[15.4px]">3,584 Products</p>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+
+      </div>
+      </div>
+      <div>
+     <Image src="/image/Image (5).png" alt="logo" width={290} height={290}/>
+     <div className="h-[85px] bg-zinc-900 opacity-90 relative bottom-[88px]">
+     <div className="relative top-[23px] left-[15px]  ">
+        <p className="text-white text-[17px] leading-[22px]">Wooden Chair</p>
+        <p className="text-white opacity-70 font-normal text-[14px] leading-[15.4px]">157 Products</p>
+        </div>
+
+
+
+     </div>
+     </div>
+     <div>
+     <Image src="/image/Image (6).png" alt="logo" width={290} height={290}/>
+     <div className="h-[85px] bg-zinc-900 opacity-90 relative bottom-[88px]">
+     <div className="relative top-[23px] left-[15px]  ">
+        <p className="text-white text-[17px] leading-[22px]">Desk Chair</p>
+        <p className="text-white opacity-70 font-normal text-[14px] leading-[15.4px]">154 Products</p>
+        
+        </div>
+
+
+       
+
+
+
+     </div>
+     
+     </div>
+     
     </div>
-  );
+    <Image className="relative bottom-[44px] left-[288px]" src="/image/item-category 1.png" alt="logo" width={448} height={648}/>
+    <Image className="relative bottom-[492px] left-[755px]"src="/image/01.png" alt="logo" width={212} height={312}/>
+    <Image  className="relative bottom-[469px] left-[755px]"src="/image/card.png" alt="logo" width={212} height={312}/>
+    <Image className="relative bottom-[680px] left-[977px]"src="/image/card (1).png" alt="logo" width={212} height={312}/>
+    <Image  className="relative bottom-[1128px] left-[977px]"src="/image/card (1).png" alt="logo" width={212} height={312}/>
+    <p className="rotate-90 relative bottom-[680px] right-[400px] font-normal text-[31px] leading-[39.84px] " ></p>
+
+    <p className="text-[32px] leading-[35.2] text-[#272343] relative top-[-1399px] left-[655px]">Our Products</p>
+    <div className="flex gap-[18px]">
+    <div className="relative bottom-[1800px] left-[290px]">
+    <Image src="/image/Image.png" alt="logo" width={212} height={312}/>
+     <p className="font-normal text-[16px] leading-[20.8px] text-[#007580]">Library Stool Chair</p>
+     <p className="text-[18px] leading-[19.8px] text-[#272343] ">$20</p>
+
+     <Image className="relative bottom-[33px] left-[170px]"src="/image/Add Cart.png" alt="logo" width={44} height={44}/>
+
+     <div className=" relative bottom-[280px] left-[22px] w-[49px] h-[26px] rounded-[4px] pt-[6px] pr-[10px] pb-[6px] pl-[10px] bg-[#01AD5A]">
+      <p className="font-medium text-[13px] leading-[14.3px] text-white">New</p>
+
+     </div>
+     
+     
+    </div>
+
+
+
+    <div className="relative bottom-[1800px] left-[290px]">
+    <Image src="/image/Image (7).png" alt="logo" width={212} height={312}/>
+     <p className="font-normal text-[16px] leading-[20.8px] text-[#272343]">Library Stool Chair</p>
+     <p className="text-[18px] leading-[19.8px] text-[#272343] ">$20</p>
+     <p className="relative bottom-[22px] left-[43px] line-through text-[#9A9CAA]">$39</p>
+
+     <Image className="relative bottom-[57px] left-[170px]"src="/image/Add Cart (1).png" alt="logo" width={44} height={44}/>
+
+     <div className=" relative bottom-[306px] left-[22px] w-[49px] h-[26px] rounded-[4px] pt-[6px] pr-[10px] pb-[6px] pl-[10px] bg-[#F5813F]">
+      <p className="font-medium text-[13px] leading-[14.3px] text-white">Sales</p>
+
+     </div>
+     
+    </div>
+
+
+    <div className="relative bottom-[1800px] left-[290px]">
+    <Image src="/image/Image (8).png" alt="logo" width={212} height={312}/>
+     <p className="font-normal text-[16px] leading-[20.8px] text-[#272343]">Library Stool Chair</p>
+     <p className="text-[18px] leading-[19.8px] text-[#272343] ">$20</p>
+
+     <Image className="relative bottom-[33px] left-[170px]"src="/image/Add Cart (1).png" alt="logo" width={44} height={44}/>
+     
+     
+    </div>
+
+
+    <div className="relative bottom-[1800px] left-[290px]">
+    <Image src="/image/Image (9).png" alt="logo" width={212} height={312}/>
+     <p className="font-normal text-[16px] leading-[20.8px] text-[#272343]">Library Stool Chair</p>
+     <p className="text-[18px] leading-[19.8px] text-[#272343] ">$20</p>
+
+     <Image className="relative bottom-[33px] left-[170px]"src="/image/Add Cart (1).png" alt="logo" width={44} height={44}/>
+      
+
+
+
+      
+     
+    </div>
+
+
+
+
+    
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <div className="flex gap-[18px]">
+    <div className="relative bottom-[1800px] left-[290px]">
+    <Image src="/image/Image (10).png" alt="logo" width={212} height={312}/>
+     <p className="font-normal text-[16px] leading-[20.8px] text-[#007580]">Library Stool Chair</p>
+     <p className="text-[18px] leading-[19.8px] text-[#272343] ">$20</p>
+
+     <Image className="  relative bottom-[33px] left-[170px]"src="/image/Add Cart (1).png" alt="logo" width={44} height={44}/>
+
+     <div className=" relative bottom-[285px] left-[22px] w-[49px] h-[26px] rounded-[4px] pt-[6px] pr-[10px] pb-[6px] pl-[10px] bg-[#01AD5A]">
+      <p className="font-medium text-[13px] leading-[14.3px] text-white">New</p>
+
+     </div>
+     
+     
+    </div>
+
+
+
+    <div className="relative bottom-[1800px] left-[290px]">
+    <Image src="/image/Image (11).png" alt="logo" width={212} height={312}/>
+     <p className="font-normal text-[16px] leading-[20.8px] text-[#272343]">Library Stool Chair</p>
+     <p className="text-[18px] leading-[19.8px] text-[#272343] ">$20</p>
+     <p className="relative bottom-[22px] left-[43px] line-through text-[#9A9CAA]">$39</p>
+
+     <Image className="relative bottom-[57px] left-[170px]"src="/image/Add Cart (1).png" alt="logo" width={44} height={44}/>
+
+     <div className=" relative bottom-[306px] left-[22px] w-[49px] h-[26px] rounded-[4px] pt-[6px] pr-[10px] pb-[6px] pl-[10px] bg-[#F5813F]">
+      <p className="font-medium text-[13px] leading-[14.3px] text-white">Sales</p>
+
+     </div>
+     
+    </div>
+
+
+    <div className="relative bottom-[1800px] left-[290px]">
+    <Image src="/image/Image (13).png" alt="logo" width={212} height={312}/>
+     <p className="font-normal text-[16px] leading-[20.8px] text-[#272343]">Library Stool Chair</p>
+     <p className="text-[18px] leading-[19.8px] text-[#272343] ">$20</p>
+
+     <Image className="relative bottom-[33px] left-[170px]"src="/image/Add Cart (1).png" alt="logo" width={44} height={44}/>
+     
+     
+    </div>
+
+
+    <div className="relative bottom-[1800px] left-[290px]">
+    <Image src="/image/Image (14).png" alt="logo" width={212} height={312}/>
+     <p className="font-normal text-[16px] leading-[20.8px] text-[#272343]">Library Stool Chair</p>
+     <p className="text-[18px] leading-[19.8px] text-[#272343] ">$20</p>
+
+     <Image className="relative bottom-[33px] left-[170px]"src="/image/Add Cart (1).png" alt="logo" width={44} height={44}/>
+      
+
+
+
+      
+     
+    </div>
+
+
+
+
+    
+    </div>
+
+    
+
+<Footer />
+
+
+    </div>
+  )
 }
