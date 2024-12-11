@@ -1,7 +1,8 @@
 import Image from "next/image"
+
 export default function Pages(){
     return(
-      <div className="max-w-[1920px] overflow-hidden">
+      <div className="max-w-[1920px] h-auto overflow-hidden ">
         {/* <h1>welcome to pages page</h1> */}
 
       
@@ -94,6 +95,8 @@ export default function Pages(){
           <p className=" relative left-[33px]  font-normal text-[16px] leading-[24px] text-[#4F4F4F]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quis modi ullam<br /> amet debitis libero veritatis enim repellat optio natus eum delectus deserunt<br/> odit expedita eos molestiae ipsa totam quidem?</p>
       </div>      
       </div>
+
+      
 </div>
 
 

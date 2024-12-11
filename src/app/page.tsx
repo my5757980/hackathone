@@ -1,15 +1,14 @@
 import HeroSection from "./components/hero-section/hero-section";
 import Image from "next/image";
-import Footer from "./components/footer/footer";
 export default function Home(){
   return(
-    <div  className="max-w-[1920px] overflow-hidden overflow-y-hidden">
+    <div  className="max-w-[1920px] h-auto overflow-hidden ">
       {/* <h1>welcome to home page</h1> */}
       <HeroSection/>
-     <p className="text-[32px] leading-[35.2px] relative bottom-[177px] left-[295px]">Featured Products</p>
+     <p className="  text-[32px] leading-[35.2px] relative bottom-[177px] left-[295px]">Featured Products</p>
      <div className=" relative bottom-[133px] left-[295px] flex gap-[10px]">
       <div>
-     <Image src="/image/Image.png" alt="logo" width={212} height={312}/>
+     <Image className="hover:scale-125"src="/image/Image.png" alt="logo" width={212} height={312}/>
      
      <p className="font-normal text-[16px] leading-[20.8px] text-[#007580]">Library Stool Chair</p>
      <p className="text-[18px] leading-[19.8px] text-[#272343] ">$20</p>
@@ -22,7 +21,7 @@ export default function Home(){
 
      </div>
      <div>
-     <Image src="/image/Image (1).png" alt="logo" width={212} height={312}/>
+     <Image className="hover:scale-125"src="/image/Image (1).png" alt="logo" width={212} height={312}/>
      <p className="font-normal text-[16px] text-[#272343] leading-[]20.8px">Library Stool Chair</p>
      <p className=" text-[18px] leading-[19.8px] text-[#272343] ">$20</p>
      <p className="relative bottom-[18px] left-[42px] font-normal text-[14px] leading-[15.4px] line-through text-[#9A9CAA]">$39</p>
@@ -36,13 +35,13 @@ export default function Home(){
 
      </div>
      <div>
-     <Image src="/image/Image (2).png" alt="logo" width={212} height={312}/>
+     <Image className="hover:scale-125"src="/image/Image (2).png" alt="logo" width={212} height={312}/>
      <p className="font-normal text-[16px] text-[#272343] leading-[20.8px]">Library Stool Chair</p>
      <p className="text-[18px] leading-[19.8px] text-[#272343] ">$20</p>
      <Image className="relative bottom-[35px] left-[168px]" src="/image/Add Cart (1).png" alt="logo" width={44} height={44}/>
      </div>
      <div>
-     <Image src="/image/Image (3).png" alt="logo" width={212} height={312}/>
+     <Image className="hover:scale-125"src="/image/Image (3).png" alt="logo" width={212} height={312}/>
      <p className="font-normal text-[16px] text-[#272343] leading-[20.8px]">Library Stool Chair</p>
      <p className="text-[18px] leading-[19.8px] text-[#272343] ">$20</p>
      <Image className="relative bottom-[35px] left-[168px]" src="/image/Add Cart (1).png" alt="logo" width={44} height={44}/>
@@ -96,17 +95,17 @@ export default function Home(){
      </div>
      
     </div>
-    <Image className="relative bottom-[44px] left-[288px]" src="/image/item-category 1.png" alt="logo" width={448} height={648}/>
-    <Image className="relative bottom-[492px] left-[755px]"src="/image/01.png" alt="logo" width={212} height={312}/>
-    <Image  className="relative bottom-[469px] left-[755px]"src="/image/card.png" alt="logo" width={212} height={312}/>
-    <Image className="relative bottom-[680px] left-[977px]"src="/image/card (1).png" alt="logo" width={212} height={312}/>
-    <Image  className="relative bottom-[1128px] left-[977px]"src="/image/card (1).png" alt="logo" width={212} height={312}/>
+    <Image className=" relative bottom-[44px] left-[288px]" src="/image/item-category 1.png" alt="logo" width={448} height={648}/>
+    <Image className=" relative bottom-[492px] left-[755px]"src="/image/01.png" alt="logo" width={212} height={312}/>
+    <Image  className=" relative bottom-[469px] left-[755px]"src="/image/card.png" alt="logo" width={212} height={312}/>
+    <Image className=" relative bottom-[680px] left-[977px]"src="/image/card (1).png" alt="logo" width={212} height={312}/>
+    <Image  className=" relative bottom-[1128px] left-[977px]"src="/image/card (1).png" alt="logo" width={212} height={312}/>
     <p className="rotate-90 relative bottom-[680px] right-[400px] font-normal text-[31px] leading-[39.84px] " ></p>
 
     <p className="text-[32px] leading-[35.2] text-[#272343] relative top-[-1399px] left-[655px]">Our Products</p>
     <div className="flex gap-[18px]">
     <div className="relative bottom-[1800px] left-[290px]">
-    <Image src="/image/Image.png" alt="logo" width={212} height={312}/>
+    <Image className="hover:scale-125"src="/image/Image.png" alt="logo" width={212} height={312}/>
      <p className="font-normal text-[16px] leading-[20.8px] text-[#007580]">Library Stool Chair</p>
      <p className="text-[18px] leading-[19.8px] text-[#272343] ">$20</p>
 
@@ -123,7 +122,7 @@ export default function Home(){
 
 
     <div className="relative bottom-[1800px] left-[290px]">
-    <Image src="/image/Image (7).png" alt="logo" width={212} height={312}/>
+    <Image className="hover:scale-125"src="/image/Image (7).png" alt="logo" width={212} height={312}/>
      <p className="font-normal text-[16px] leading-[20.8px] text-[#272343]">Library Stool Chair</p>
      <p className="text-[18px] leading-[19.8px] text-[#272343] ">$20</p>
      <p className="relative bottom-[22px] left-[43px] line-through text-[#9A9CAA]">$39</p>
@@ -139,7 +138,7 @@ export default function Home(){
 
 
     <div className="relative bottom-[1800px] left-[290px]">
-    <Image src="/image/Image (8).png" alt="logo" width={212} height={312}/>
+    <Image className="hover:scale-125"src="/image/Image (8).png" alt="logo" width={212} height={312}/>
      <p className="font-normal text-[16px] leading-[20.8px] text-[#272343]">Library Stool Chair</p>
      <p className="text-[18px] leading-[19.8px] text-[#272343] ">$20</p>
 
@@ -150,7 +149,7 @@ export default function Home(){
 
 
     <div className="relative bottom-[1800px] left-[290px]">
-    <Image src="/image/Image (9).png" alt="logo" width={212} height={312}/>
+    <Image className="hover:scale-125"src="/image/Image (9).png" alt="logo" width={212} height={312}/>
      <p className="font-normal text-[16px] leading-[20.8px] text-[#272343]">Library Stool Chair</p>
      <p className="text-[18px] leading-[19.8px] text-[#272343] ">$20</p>
 
@@ -180,7 +179,7 @@ export default function Home(){
 
     <div className="flex gap-[18px]">
     <div className="relative bottom-[1800px] left-[290px]">
-    <Image src="/image/Image (10).png" alt="logo" width={212} height={312}/>
+    <Image className="hover:scale-125"src="/image/Image (10).png" alt="logo" width={212} height={312}/>
      <p className="font-normal text-[16px] leading-[20.8px] text-[#007580]">Library Stool Chair</p>
      <p className="text-[18px] leading-[19.8px] text-[#272343] ">$20</p>
 
@@ -197,7 +196,7 @@ export default function Home(){
 
 
     <div className="relative bottom-[1800px] left-[290px]">
-    <Image src="/image/Image (11).png" alt="logo" width={212} height={312}/>
+    <Image className="hover:scale-125"src="/image/Image (11).png" alt="logo" width={212} height={312}/>
      <p className="font-normal text-[16px] leading-[20.8px] text-[#272343]">Library Stool Chair</p>
      <p className="text-[18px] leading-[19.8px] text-[#272343] ">$20</p>
      <p className="relative bottom-[22px] left-[43px] line-through text-[#9A9CAA]">$39</p>
@@ -213,7 +212,7 @@ export default function Home(){
 
 
     <div className="relative bottom-[1800px] left-[290px]">
-    <Image src="/image/Image (13).png" alt="logo" width={212} height={312}/>
+    <Image className="hover:scale-125"src="/image/Image (13).png" alt="logo" width={212} height={312}/>
      <p className="font-normal text-[16px] leading-[20.8px] text-[#272343]">Library Stool Chair</p>
      <p className="text-[18px] leading-[19.8px] text-[#272343] ">$20</p>
 
@@ -224,12 +223,12 @@ export default function Home(){
 
 
     <div className="relative bottom-[1800px] left-[290px]">
-    <Image src="/image/Image (14).png" alt="logo" width={212} height={312}/>
+    <Image className="hover:scale-125"src="/image/Image (14).png" alt="logo" width={212} height={312}/>
      <p className="font-normal text-[16px] leading-[20.8px] text-[#272343]">Library Stool Chair</p>
      <p className="text-[18px] leading-[19.8px] text-[#272343] ">$20</p>
 
      <Image className="relative bottom-[33px] left-[170px]"src="/image/Add Cart (1).png" alt="logo" width={44} height={44}/>
-      
+     
 
 
 
@@ -243,9 +242,12 @@ export default function Home(){
     
     </div>
 
-    
+    <div className="mb-[-1488px]">
 
-<Footer />
+
+    </div>
+
+
 
 
     </div>

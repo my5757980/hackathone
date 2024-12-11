@@ -2,11 +2,11 @@ import Image from "next/image"
 
 export default function Product(){
     return(
-      <div className="max-w-[1920px] overflow-hidden">
+      <div className="max-w-[1920px] h-auto overflow-hidden">
         {/* <h1>welcome to product page</h1> */}
 
 
-        
+      
         <Image className="relative left-[55px]" src="/image/Image (15).png" alt="logo" width={475} height={475}/>
         <div className="relative bottom-[433px] left-[622px]">
         <p className="font-bold text-[60px] leading-[66px] text-[#272343]">Library Stool <br />Chair</p>
@@ -29,30 +29,31 @@ export default function Product(){
       <p className="font-bold text-[18px] leading-[21.78px] underline relative bottom-[210px] left-[1211px]">View all</p>
       <div className="flex gap-x-6 relative left-[99px] bottom-[99px]">
         <div>
-      <Image src="/image/Image (13).png" alt="logo" width={210} height={263}/>
+      <Image className="hover:scale-125"src="/image/Image (13).png" alt="logo" width={210} height={263}/>
       <p className="font-normal text-[16px] leading-[20.8px] text-[#272343]">Library Stool Chair</p>
       <p className=" relative bottom-[127px] left-[177px] font-bold text-[14px] leading-[16.94] text-black">$99</p>
       </div>
       <div>
-      <Image src="/image/Image.png" alt="logo" width={210} height={263}/>
+      <Image className="hover:scale-125"src="/image/Image.png" alt="logo" width={210} height={263}/>
       <p className="font-normal text-[16px] leading-[20.8px] text-[#272343]">Library Stool Chair</p>
       <p className=" relative bottom-[127px] left-[177px] font-bold text-[14px] leading-[16.94] text-black">$99</p>
       </div>
       <div>
-      <Image src="/image/Image (6).png" alt="logo" width={210} height={263}/>
+      <Image className="hover:scale-125"src="/image/Image (6).png" alt="logo" width={210} height={263}/>
       <p className="text-[#272343] font-normal text-[16px] leading-[20.8px]">Library Stool Chair</p>
       <p className="relative bottom-[127px] left-[177px] font-bold text-[14px] leading-[16.94] text-black">$99</p>
       </div>
       <div>
-      <Image src="/image/item-category 1.png" alt="logo" width={210} height={263}/>
+      <Image className="hover:scale-125"src="/image/item-category 1.png" alt="logo" width={210} height={263}/>
       <p className="text-[#272343] font-normal text-[16px] leading-[20.8px]">Library Stool Chair</p>
       <p className=" relative bottom-[127px] left-[177px] font-bold text-[14px] leading-[16.94] text-black">$99</p>
       </div>
       <div>
-      <Image src="/image/Image (10).png" alt="logo" width={210} height={263}/>
+      <Image className="hover:scale-125"src="/image/Image (10).png" alt="logo" width={210} height={263}/>
       <p className="text-[16px] font-normal leading-[20.8px] text-[#272343]">Library Stool Chair</p>
       <p className=" relative bottom-[127px] left-[177px] font-bold text-[14px] leading-[16.94] text-black">$99</p>
       </div>
+      
       </div>
 
 

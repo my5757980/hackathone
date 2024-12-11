@@ -1,10 +1,11 @@
 import Image from "next/image"
+
 export default function About(){
     return(
-      <div className="max-w-[1920px] overflow-hidden">
+      <div className="max-w-[1920px] h-auto overflow-hidden  ">
         {/* <h1>welcome to About page</h1> */}
 
-
+         
          <div className="ml-80">
         <div className="w-[472px] h-[378px] bg-[#007580]">
           <div className="pl-14 pt-12">
@@ -68,22 +69,31 @@ export default function About(){
 
 
       <p className=" relative bottom-[1355px] left-[55px] font-semibold text-[32px] leading-[35.2px]">Our Popular Products </p>
-      <Image className="relative bottom-[1333px] left-[55px] "src="/image/Large.png " alt="logo" width={630} height={375}/>
+      
+      <Image className=" hover:scale-125 relative bottom-[1333px] left-[55px] "src="/image/Large.png " alt="logo" width={630} height={375}/>
      <div className="relative bottom-[1322px] left-[55px]">
      <p className=" text-[#2A254B] font-normal text-[20px] leading-[28px]">The Poplar suede sofa</p>
      <p className=" text-[#2A254B] font-normal text-[18px] leading-[27px]">$99.00</p>
      </div>
-     <Image className="relative bottom-[1762px] left-[700px]"src="/image/Photo.png" alt="logo" width={305} height={375}/>
+     <Image className=" hover:scale-125 overflow-hidden relative bottom-[1762px] left-[700px]"src="/image/Photo.png" alt="logo" width={305} height={375}/>
      <div className="relative bottom-[1750px] left-[700px]">
      <p className=" text-[#2A254B] font-normal text-[20px] leading-[28px]">The Dandy chair</p>
      <p className=" text-[#2A254B] font-normal text-[18px] leading-[27px]">$99.00</p>
      </div>
-      <Image className="relative bottom-[2191px] left-[1022px]"src="/image/Parent.png" alt="logo" width={305} height={375}/>
+      <Image className=" hover:scale-125 overflow-hidden relative bottom-[2191px] left-[1022px]"src="/image/Parent.png" alt="logo" width={305} height={375}/>
       <div className="relative bottom-[2182px] left-[1022px]">
+    
      <p className=" text-[#2A254B] font-normal text-[20px] leading-[28px]">The Dandy chair</p>
      <p className=" text-[#2A254B] font-normal text-[18px] leading-[27px]">$99.00</p>
      </div>
-      </div>
+
+     <div className="mb-[-1800px]">
+
+     </div>
+    </div>
+     
+    
+      
       
       
     )

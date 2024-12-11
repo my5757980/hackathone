@@ -1,8 +1,8 @@
 import Image from "next/image"
-import Footer from "../components/footer/footer"
+
 export default function Shop(){
     return(
-      <div className="max-w-[1920px]  overflow-hidden">
+      <div className="max-w-[1920px] h-auto overflow-hidden ">
         {/* <h1>welcome to shop page</h1> */}
          <div className="relative left-[299px]">
        
@@ -66,7 +66,7 @@ export default function Shop(){
             
           </div>
           
-          <Footer />
+          
         
       </div>
       

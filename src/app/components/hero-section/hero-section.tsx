@@ -1,7 +1,7 @@
 import Image from "next/image"
 export default function HeroSection(){
    return(
-    <div className="max-w-[1920px] overflow-hidden">
+    <div className="max-w-[1920px] h-auto overflow-hidden ">
         <div>
          <Image className="relative left-[300px]" src="/image/BG.png" alt="logo" width={860} height={850}/>
          <p className="relative bottom-[410px] left-[400px] font-normal text-[14px] leading-[14px] tracking-[12%]">Welcome to chairy</p>

@@ -6,9 +6,9 @@ import { FaYoutube } from "react-icons/fa";
 
 export default function Footer(){
     return(
-        <div className="max-w-[1920px] ">
+        <div className="max-w-[1920px] h-auto overflow-hidden">
 
-            <div className="h-[418px] bg-[#E1E3E5] relative bottom-[1744px]">
+            <div className="h-[418px] bg-[#E1E3E5] ">
                 <div className="relative top-[99px] left-[77px]">
                 <div className="flex gap-1 relative top-[-7px]">
                 <Image src="/image/Logo Icon.png" alt="logo" width={40} height={40}/>
@@ -55,12 +55,12 @@ export default function Footer(){
 
              
             
-            </div>
+            
 
-            <p className=" relative bottom-[1800px] left-[66px] font-normal leading-[21px] text-[14px] text-[#9A9CAA]">@ 2021 - Blogy - Designed & Develop by Zakirsoft</p>
-             <Image className=" relative bottom-[1815px] left-[877px]"src="/image/Group 13.png" alt="logo" width={130} height={27}/>
+            <p className=" relative bottom-[99px] left-[66px] font-normal leading-[21px] text-[14px] text-[#9A9CAA]">@ 2021 - Blogy - Designed & Develop by Zakirsoft</p>
+             <Image className=" relative bottom-[122px] left-[877px]"src="/image/Group 13.png" alt="logo" width={130} height={27}/>
 
-
+</div>
             
 
 

@@ -2,7 +2,7 @@ import Link from "next/link"
 import Image from "next/image"
 export default function Navbar(){
     return(
-        <div className=" max-w-[1920px] overflow-hidden ">
+        <div className=" max-w-[1920px] h-auto overflow-hidden ">
 
             <div className="  h-[45px] bg-[#272343] pt-[14px] pr-[300px] pb-[14px] pl-[300px]">
                     <Image src="/image/check 1.png" alt="logo" width={16} height={16}/>
