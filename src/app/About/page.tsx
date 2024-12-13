@@ -75,18 +75,20 @@ export default function About(){
      <p className=" text-[#2A254B] font-normal text-[20px] leading-[28px]">The Poplar suede sofa</p>
      <p className=" text-[#2A254B] font-normal text-[18px] leading-[27px]">$99.00</p>
      </div>
-     <Image className=" hover:scale-125 overflow-hidden relative bottom-[1700px] left-[700px]"src="/image/Photo.png" alt="logo" width={230} height={375}/>
+     <Image className=" hover:scale-125 overflow-hidden relative bottom-[1703px] left-[600px]"src="/image/Photo.png" alt="logo" width={255} height={375}/>
      <div className="relative bottom-[1750px] left-[700px]">
+      <div className="relative bottom-[-59px] right-[99px]">
      <p className=" text-[#2A254B] font-normal text-[20px] leading-[28px]">The Dandy chair</p>
      <p className=" text-[#2A254B] font-normal text-[18px] leading-[27px]">$99.00</p>
+    </div>
      </div>
-      <Image className=" hover:scale-125 overflow-hidden relative bottom-[2191px] left-[1022px]"src="/image/Parent.png" alt="logo" width={230} height={375}/>
+      <Image className=" hover:scale-125 overflow-hidden relative bottom-[2072px] left-[870px]"src="/image/Parent.png" alt="logo" width={255} height={375}/>
       <div className="relative bottom-[2182px] left-[1022px]">
-    
+    <div className="relative bottom-[-120px] right-[151px]">
      <p className=" text-[#2A254B] font-normal text-[20px] leading-[28px]">The Dandy chair</p>
      <p className=" text-[#2A254B] font-normal text-[18px] leading-[27px]">$99.00</p>
      </div>
-
+      </div>
      <div className="mb-[-1800px]">
 
      </div>
