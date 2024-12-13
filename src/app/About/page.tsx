@@ -70,7 +70,7 @@ export default function About(){
 
       <p className=" relative bottom-[1355px] left-[55px] font-semibold text-[32px] leading-[35.2px]">Our Popular Products </p>
       
-      <Image className=" hover:scale-125 relative bottom-[1333px] left-[55px]"src="/image/Large.png " alt="logo" width={630} height={375}/>
+      <Image className="  relative bottom-[1333px] left-[55px]"src="/image/Large.png" alt="logo" width={330} height={375}/>
      <div className="relative bottom-[1322px] left-[55px]">
      <p className=" text-[#2A254B] font-normal text-[20px] leading-[28px]">The Poplar suede sofa</p>
      <p className=" text-[#2A254B] font-normal text-[18px] leading-[27px]">$99.00</p>
