@@ -75,12 +75,12 @@ export default function About(){
      <p className=" text-[#2A254B] font-normal text-[20px] leading-[28px]">The Poplar suede sofa</p>
      <p className=" text-[#2A254B] font-normal text-[18px] leading-[27px]">$99.00</p>
      </div>
-     <Image className=" hover:scale-125 overflow-hidden relative bottom-[1762px] left-[700px]"src="/image/Photo.png" alt="logo" width={305} height={375}/>
+     <Image className=" hover:scale-125 overflow-hidden relative bottom-[1762px] left-[700px]"src="/image/Photo.png" alt="logo" width={205} height={375}/>
      <div className="relative bottom-[1750px] left-[700px]">
      <p className=" text-[#2A254B] font-normal text-[20px] leading-[28px]">The Dandy chair</p>
      <p className=" text-[#2A254B] font-normal text-[18px] leading-[27px]">$99.00</p>
      </div>
-      <Image className=" hover:scale-125 overflow-hidden relative bottom-[2191px] left-[1022px]"src="/image/Parent.png" alt="logo" width={305} height={375}/>
+      <Image className=" hover:scale-125 overflow-hidden relative bottom-[2191px] left-[1022px]"src="/image/Parent.png" alt="logo" width={205} height={375}/>
       <div className="relative bottom-[2182px] left-[1022px]">
     
      <p className=" text-[#2A254B] font-normal text-[20px] leading-[28px]">The Dandy chair</p>
