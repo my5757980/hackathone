@@ -96,10 +96,14 @@ export default function Home(){
      
     </div>
     <Image className=" relative bottom-[44px] left-[288px]" src="/image/item-category 1.png" alt="logo" width={448} height={648}/>
-    <Image className=" relative bottom-[492px] left-[755px]"src="/image/01.png" alt="logo" width={212} height={312}/>
-    <Image  className=" relative bottom-[469px] left-[755px]"src="/image/card.png" alt="logo" width={212} height={312}/>
-    <Image className=" relative bottom-[680px] left-[977px]"src="/image/card (1).png" alt="logo" width={212} height={312}/>
-    <Image  className=" relative bottom-[1128px] left-[977px]"src="/image/card (1).png" alt="logo" width={212} height={312}/>
+    <div>
+    <p className="  text-[31px] font-normal leading-[39.84px]  relative bottom-[745px] right-[411px] rotate-[-90.3deg]">Explore new and popular styles</p>
+    </div>
+  
+    <Image className=" relative bottom-[533px] left-[755px]"src="/image/01.png" alt="logo" width={212} height={312}/>
+    <Image  className=" relative bottom-[510px] left-[755px]"src="/image/card.png" alt="logo" width={212} height={312}/>
+    <Image className=" relative bottom-[722px] left-[977px]"src="/image/card (1).png" alt="logo" width={212} height={312}/>
+    <Image  className=" relative bottom-[1170px] left-[977px]"src="/image/card (1).png" alt="logo" width={212} height={312}/>
     <p className="rotate-90 relative bottom-[680px] right-[400px] font-normal text-[31px] leading-[39.84px] " ></p>
 
     <p className="text-[32px] leading-[35.2] text-[#272343] relative top-[-1399px] left-[655px]">Our Products</p>
