@@ -3,8 +3,8 @@ import Image from "next/image"
 export default function Navbar(){
     return(
         <div className=" max-w-[1920px] h-auto overflow-hidden ">
-
-            <div className="  h-[45px] bg-[#272343] pt-[14px] pr-[300px] pb-[14px] pl-[300px]">
+            <div className="fixed right-0 left-0 z-10">
+            <div className=" h-[45px] bg-[#272343] pt-[14px] pr-[300px] pb-[14px] pl-[300px]">
                     <Image src="/image/check 1.png" alt="logo" width={16} height={16}/>
                     <p className="font-normal text-[13px] leading-[14.3px] text-white relative bottom-[14px] left-[25px]">Free shipping on all orders over $50</p>
                     <p className="text-[13px] leading-[16.9px] font-normal relative bottom-[30px] left-[800px] text-white ">Eng</p>
@@ -15,7 +15,7 @@ export default function Navbar(){
                       
             </div>  
 
-             <div className="h-[84px] bg-[#F0F2F3] pt-[20px] pr-[300px] pb-[20px] pl-[300px]">
+             <div className=" h-[84px] bg-[#F0F2F3] pt-[20px] pr-[300px] pb-[20px] pl-[300px]">
                 <Image src="/image/Logo Icon.png" alt="logo" width={40} height={40}/>
                 <p className="font-medium text-[26px] leading-[31.2px] relative bottom-[33px] left-[48px]">Comforty</p>
                 <div className=" w-[120px] h-[44px] pt-[11px] pr-[16px] pb-[11px] pl-[16px] rounded-[8px] bg-white relative bottom-[67px] left-[877px]">
@@ -35,7 +35,8 @@ export default function Navbar(){
                      </div>
                      <p className="relative bottom-[50px] left-[1150px] font-normal text-[14px] leading-[15.4px]"> Contact:</p>
                       <p className="relative bottom-[69px] left-[1210px]"> (808) 555-0111</p>
-                           
+                           </div>
+
                       
 
         </div>

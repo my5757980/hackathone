@@ -5,6 +5,7 @@ export default function Home(){
     <div  className="max-w-[1920px] h-auto overflow-hidden ">
       {/* <h1>welcome to home page</h1> */}
       <HeroSection/>
+      <div className="relative bottom-[-144px]">
      <p className="  text-[32px] leading-[35.2px] relative bottom-[177px] left-[295px]">Featured Products</p>
      <div className=" relative bottom-[133px] left-[295px] flex gap-[10px]">
       <div>
@@ -251,7 +252,7 @@ export default function Home(){
 
     </div>
 
-
+</div>
 
 
     </div>
