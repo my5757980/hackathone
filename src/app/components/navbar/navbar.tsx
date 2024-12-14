@@ -10,7 +10,7 @@ export default function Navbar(){
                     <p className="text-[13px] leading-[16.9px] font-normal relative bottom-[30px] left-[800px] text-white ">Eng</p>
                     <Image className="text-white relative bottom-[38px] left-[830px] " src="/image/Vector (13).png" alt="logo" width={10} height={3.5}/>
                        <p className="font-normal text-[13px] leading-[16.9px] text-white relative bottom-[52px] left-[850px]">Faqs</p>
-                       <Image className=" text-white relative bottom-[69px] left-[900px]"src="/image/alert-circle 1.png "alt="logo" width={16} height={16}/>
+                       <Image className=" text-white relative bottom-[69px] left-[900px]" src="/image/alert-circle 1.png" alt="logo" width={16} height={16}/>
                        <p className="font-normal text-[13px] leading-[16.9px] relative bottom-[84px] left-[920px] text-white ">Need Help</p>
                       
             </div>  
