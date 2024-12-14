@@ -19,7 +19,7 @@ export default function Product(){
        <div className="relative top-[88px]">
         <button className="w-[212px] h-[63px] rounded-[8px] pt-[14px] pr-[24px] pb-[14px] pl-[24px] bg-[#029FAE]"></button>
         <p className="relative bottom-[40px] left-[70px] text-white font-medium text-[20px] leading-[22px]">Add To Cart</p>
-        <Image className=" relative bottom-[66px] left-[22px]"src="/image/Buy 2 (1).png "alt="logo" width={29} height={29}/>
+        <Image className=" relative bottom-[66px] left-[22px]"src="/image/Buy 2 (1).png "alt="logo" width={19} height={29}/>
         </div>
         </div>
         </div>
