@@ -5,7 +5,7 @@ export default function About(){
       <div className="max-w-[1920px] h-auto overflow-hidden  ">
         {/* <h1>welcome to About page</h1> */}
 
-         
+         <div className="relative top-[222px]">
          <div className="ml-80">
         <div className="w-[472px] h-[378px] bg-[#007580]">
           <div className="pl-14 pt-12">
@@ -91,6 +91,7 @@ export default function About(){
       </div>
      <div className="mb-[-1800px]">
 
+     </div>
      </div>
     </div>
      

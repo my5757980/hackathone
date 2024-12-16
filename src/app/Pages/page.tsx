@@ -5,7 +5,7 @@ export default function Pages(){
       <div className="max-w-[1920px] h-auto overflow-hidden ">
         {/* <h1>welcome to pages page</h1> */}
 
-      
+      <div className="relative top-[222px]">
         <p className="font-bold text-[48px] leading-[56px] text-[#333333] text-center">Questions Looks Here</p>
       <p className="text-center font-normal text-[16px] leading-[24px] text-[#4F4F4F]">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the </p>
       <div className="relative top-[100px]">
@@ -95,7 +95,7 @@ export default function Pages(){
           <p className=" relative left-[33px]  font-normal text-[16px] leading-[24px] text-[#4F4F4F]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quis modi ullam<br /> amet debitis libero veritatis enim repellat optio natus eum delectus deserunt<br/> odit expedita eos molestiae ipsa totam quidem?</p>
       </div>      
       </div>
-
+</div>
       
 </div>
 

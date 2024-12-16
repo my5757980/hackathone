@@ -4,6 +4,7 @@ export default function Shop(){
     return(
       <div className="max-w-[1920px] h-auto overflow-hidden ">
         {/* <h1>welcome to shop page</h1> */}
+        <div className="relative bottom-[-220px]">
          <div className="relative left-[299px]">
        
         <Image className="relative top-[22px]" src="/image/Frame.png" alt="logo" width={150} height={150}/>
@@ -65,7 +66,7 @@ export default function Shop(){
             </div>
             
           </div>
-          
+          </div>
           
         
       </div>

@@ -6,7 +6,7 @@ export default function Product(){
         {/* <h1>welcome to product page</h1> */}
 
 
-      
+      <div className="relative top-[222px]">
         <Image className="relative left-[55px]" src="/image/Image (15).png" alt="logo" width={475} height={475}/>
         <div className="relative bottom-[433px] left-[622px]">
         <p className="font-bold text-[60px] leading-[66px] text-[#272343]">Library Stool <br />Chair</p>
@@ -58,7 +58,7 @@ export default function Product(){
 
 
 
-
+</div>
 
     
       </div>
