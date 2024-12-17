@@ -8,6 +8,7 @@ export default function Pages(){
       <div className="relative top-[222px]">
         <p className="font-bold text-[48px] leading-[56px] text-[#333333] text-center">Questions Looks Here</p>
       <p className="text-center font-normal text-[16px] leading-[24px] text-[#4F4F4F]">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the </p>
+      <div className="relative left-[288px]">
       <div className="relative top-[100px]">
       <div className="h-[170px] bg-[#F7F7F7] w-[648px] rounded-[8px]">
         <p className=" relative left-[33px] top-[11px] font-bold text-[18px] leading-[26px] text-[#333333]">What types of chairs do you offer?</p>
@@ -95,6 +96,7 @@ export default function Pages(){
           <p className=" relative left-[33px]  font-normal text-[16px] leading-[24px] text-[#4F4F4F]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quis modi ullam<br /> amet debitis libero veritatis enim repellat optio natus eum delectus deserunt<br/> odit expedita eos molestiae ipsa totam quidem?</p>
       </div>      
       </div>
+</div>
 </div>
       
 </div>

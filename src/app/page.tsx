@@ -98,7 +98,7 @@ export default function Home(){
     </div>
     <Image className=" relative bottom-[44px] left-[288px]" src="/image/item-category 1.png" alt="logo" width={448} height={648}/>
     <div>
-    <p className="  text-[31px] font-normal leading-[39.84px]  relative bottom-[745px] right-[411px] rotate-[-90.3deg]">Explore new and popular styles</p>
+    <p className="  text-[31px] font-normal leading-[39.84px]  relative bottom-[1033px] right-[700px] rotate-[-90.3deg]">Explore new and popular styles</p>
     </div>
   
     <Image className=" relative bottom-[533px] left-[755px]"src="/image/01.png" alt="logo" width={212} height={312}/>

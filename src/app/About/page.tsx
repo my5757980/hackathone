@@ -5,9 +5,9 @@ export default function About(){
       <div className="max-w-[1920px] h-auto overflow-hidden  ">
         {/* <h1>welcome to About page</h1> */}
 
-         <div className="relative top-[222px]">
+         <div className="relative top-[222px] left-[1px]">
          <div className="ml-80">
-        <div className="w-[472px] h-[378px] bg-[#007580]">
+        <div className="w-[572px] h-[378px] bg-[#007580]">
           <div className="pl-14 pt-12">
           <p className="font-bold text-[32px] leading-[38.73px] text-white">About Us - Comforty</p>
           <p className=" relative top-[22px] font-normal text-[14px] leading-[21.78px] text-white">At Comforty, we believe that the right chair can transform<br/> your space and elevate your comfort. Specializing in<br/> ergonomic design, premium materials, and modern <br/>aesthetics, we craft chairs that seamlessly blend style <br />with functionality. </p>
@@ -19,10 +19,10 @@ export default function About(){
         </div>
         </div>
 
-        <Image className="relative bottom-[380px] left-[844px]" src="/image/Image.png" alt="logo" width={377} height={477}/>
-       <p className=" relative bottom-[266px] left-[477px] font-semibold text-[32px] leading-[35.2px] ">What makes our Brand Different</p>
+        <Image className="relative bottom-[380px] left-[944px]" src="/image/Image.png" alt="logo" width={377} height={477}/>
+       <p className=" relative bottom-[266px] left-[677px] font-semibold text-[32px] leading-[35.2px] ">What makes our Brand Different</p>
       
-      
+      <div className="relative left-[299px]">
       <div className="relative left-[11px]">
       <div className=" relative bottom-[122px] bg-[#F9F9F9] w-[309.45px] h-[244px] m-4">
       </div>
@@ -64,10 +64,11 @@ export default function About(){
         <p className=" text-[#007580] relative bottom-[330px] left-[44px] font-normal text-[20px] leading-[28px] ">Recycled packaging</p>
       <p className="text-[#007580] relative bottom-[310px] left-[44px]">We use 100% recycled to <br/>ensure our footprint is more<br /> manageable</p>
       </div>
+      </div>
 
 
 
-
+        <div className="relative left-[299px]">
       <p className="relative bottom-[1355px] left-[55px] font-semibold text-[32px] leading-[35.2px]">Our Popular Products </p>
       
       <Image className="hover:scale-125 relative bottom-[1333px] left-[55px]"src="/image/Large.png" alt="logo" width={530} height={375}/>
@@ -88,6 +89,7 @@ export default function About(){
      <p className=" text-[#2A254B] font-normal text-[20px] leading-[28px]">The Dandy chair</p>
      <p className=" text-[#2A254B] font-normal text-[18px] leading-[27px]">$99.00</p>
      </div>
+      </div>
       </div>
      <div className="mb-[-1800px]">
 

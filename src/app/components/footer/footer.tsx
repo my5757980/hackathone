@@ -9,6 +9,7 @@ export default function Footer(){
         <div className="max-w-[1920px] h-auto overflow-hidden">
 
             <div className="h-[418px] bg-[#E1E3E5] ">
+                <div className="relative left-[270px]">
                 <div className="relative top-[99px] left-[77px]">
                 <div className="flex gap-1 relative top-[-7px]">
                 <Image src="/image/Logo Icon.png" alt="logo" width={40} height={40}/>
@@ -64,7 +65,7 @@ export default function Footer(){
             
 
 
-          
+          </div>
 
 
           
