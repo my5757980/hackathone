@@ -31,6 +31,7 @@ export default function Navbar(){
                         <Link href="Product">Product</Link>
                         <Link href="Pages">Pages</Link>
                         <Link href="About">About</Link>
+                        <Link href="Contact">Contact</Link>
 
                      </div>
                      <p className="relative bottom-[50px] left-[1150px] font-normal text-[14px] leading-[15.4px]"> Contact:</p>
